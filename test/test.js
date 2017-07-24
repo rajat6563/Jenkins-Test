@@ -15,3 +15,12 @@ describe('Array1', function() {
     });
   });
 });
+
+describe('Array2', function() {
+  describe('#indexOf()', function() {
+    it('should check if value is present in array', function() {
+      [1,2,3].indexOf(1).should.equal(0);
+      [1,2,3].indexOf(2).should.equal(1);
+    });
+  });
+});
