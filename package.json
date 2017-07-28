@@ -4,8 +4,8 @@
   "description": "Testing Project for Jenkins",
   "main": "index.js",
   "scripts": {
-	"start": "forever start app.js",
-	"stop": "forever stopall"
+    "start": "forever start app.js",
+    "stop": "forever stopall",
     "test": "mocha"
   },
   "repository": {
@@ -20,10 +20,11 @@
   },
   "homepage": "https://github.com/rajat6563/Jenkins-Test#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "protractor": "^5.1.2"
   },
   "devDependencies": {
-	"forever": "^0.15.3",
+    "forever": "^0.15.3",
     "mocha": "^3.4.2",
     "should": "^11.2.1",
     "supertest": "^3.0.0"
