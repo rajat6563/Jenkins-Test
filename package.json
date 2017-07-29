@@ -7,7 +7,7 @@
     "start": "forever start app.js",
     "stop": "forever stopall",
     "test": "mocha",
-	"webdriver-start": "webdriver-manager update",
+	"webdriver": "webdriver-manager update",
 	"protractor": "protractor protractor.conf.js"
   },
   "repository": {
