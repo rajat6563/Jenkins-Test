@@ -4,8 +4,9 @@
   "description": "Testing Project for Jenkins",
   "main": "index.js",
   "scripts": {
-    "start": "forever start app.js",
-    "stop": "forever stopall",
+    "start": "node app.js",
+	"bgstart": "forever start app.js",
+    "bgstop": "forever stopall",
     "test": "mocha",
 	"webdriver": "webdriver-manager update",
 	"protractor": "protractor protractor.conf.js"

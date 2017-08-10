@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/',function(req,res) {
-  res.send("Congrats.... we have successfully done Continuous Deployment from Dev Branch to Master Branch");
+  res.send("Hello Jenkins");
 });
 
-app.listen(4000);
+app.listen(3000);
